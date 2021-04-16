@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a> 
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>React JS</h1>
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/3.jpg" alt="Imagen producto">
+
+            <div class="camisa__texto">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Excepturi eaque at, eveniet tempore sed porro quisquam reiciendis sit.
+                Cupiditate deserunt illo fuga aliquid asperiores sunt magni aut reprehenderit et dolorem!</p>
+
+                <form class="formulario">
+                    <select class="formulario__campo formulario__campo--talla ">
+                        <option disabled selected>--Seleccionar talla--</option> <!--esta desabilitado pero es el primero que se ve-->
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                    </select>
+                    <input class="formulario__campo formulario__campo--cantidad" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar al carrito" >
+                </form>
+            </div><!--.camisa__texto-->
+        </div><!--.camisa-->
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Todos los derechos reservados - 2021 <br> <span>Daniel Asencio</span></p>
+    </footer>
+    
+</body>
+</html>
